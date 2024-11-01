@@ -1,6 +1,6 @@
-// src/HomePage.js
 import React from "react";
 import "./Home.css";
+import Footer from "../footer/Footer";
 
 const Home = () => {
   return (
@@ -37,9 +37,7 @@ const Home = () => {
         </div>
       </section>
 
-      <footer className="footer">
-        <p>© 2024 Floristería El Girasol</p>
-      </footer>
+      <Footer />
     </div>
   );
 };
