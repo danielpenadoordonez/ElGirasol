@@ -12,8 +12,14 @@
   }
   
   .header {
-    padding: 8rem;
+    padding: 24rem;
     background-color: var(--main-color);
+    background-image: url('Logo.jpg'); /* Ruta de tu imagen */
+    background-size: cover; /* Asegura que la imagen cubra toda el área del header */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    color: white; /* Para que el texto sea legible sobre la imagen */
+    text-align: center;
   }
   
   .title {
@@ -24,25 +30,9 @@
   .subtitle {
     font-size: 1.5rem;
     color: var(--text-color);
+    margin: 2%;
   }
-  
-  /* .main-content {
-    display: grid;
-    justify-content: space-around;
-    grid-template-columns: repeat(3, 1fr);
-    padding: 2rem;
-    gap: 1rem;
-  }
-  
-  .card {
-    width: 30%;
-    padding: 1rem;
-    border: 1px solid #ff99aa;
-    background-color: var(--secondary-color);
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  } */
-
+ 
   .main-content {
     display: flex;
     flex-wrap: wrap; /* Permite que los elementos ocupen varias filas si es necesario */
@@ -65,3 +55,49 @@
     font-size: 1.5rem;
     color: #ff6699;
   }
+
+  /* Ajustes generales para dispositivos pequeños */
+@media (max-width: 768px) {
+
+
+  /* Ajustes del Header */
+  .header {
+    padding: 6rem; /* Reduce el padding para pantallas pequeñas */
+    text-align: center;
+  }
+
+  .title {
+    font-size: 2rem; /* Reduce el tamaño de la fuente */
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  /* Ajustes de las Cards */
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-right: 5%;
+  }
+
+  .card {
+    display: block;
+    width: 100%; /* Cada tarjeta ocupa todo el ancho en pantallas pequeñas */
+    max-width: 100%;
+    margin: 0;
+  }
+}
+
+/* Ajustes para pantallas muy pequeñas (por ejemplo, iPhone SE o 320px de ancho) */
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .subtitle {
+    font-size: 0.9rem;
+  }
+
+}
