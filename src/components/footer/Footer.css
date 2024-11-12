@@ -2,6 +2,7 @@
     padding: 1rem;
     margin-top: 5rem;
     background-color: var(--main-color);
+    background-color: rgb(246, 246, 105);
     color: var(--text-color);
     text-align: center;
     line-height: 1.2;

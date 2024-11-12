@@ -1,5 +1,7 @@
 :root {
     --main-color: #ffccd5; /* Rosado claro */
+    --main-color:rgb(231, 231, 25);
+    --main-color: rgb(246, 246, 105);
     --secondary-color: #ffffff; /* Blanco */
     --text-color: #333;
   }
@@ -20,6 +22,7 @@
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     color: white; /* Para que el texto sea legible sobre la imagen */
     text-align: center;
+    object-fit: cover;
   }
   
   .title {
@@ -39,21 +42,6 @@
     justify-content: space-around;
     gap: 1rem;
     padding: 2rem;
-  }
-  
-  .card {
-    flex: 1 1 30%; /* Toma aproximadamente un tercio del ancho del contenedor */
-    max-width: 30%;
-    padding: 1rem;
-    border: 1px solid #ff99aa;
-    background-color: var(--secondary-color);
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
-  
-  .card-title {
-    font-size: 1.5rem;
-    color: #ff6699;
   }
 
   /* Ajustes generales para dispositivos pequeños */
@@ -80,13 +68,6 @@
     flex-direction: column;
     gap: 1rem;
     margin-right: 5%;
-  }
-
-  .card {
-    display: block;
-    width: 100%; /* Cada tarjeta ocupa todo el ancho en pantallas pequeñas */
-    max-width: 100%;
-    margin: 0;
   }
 }
 

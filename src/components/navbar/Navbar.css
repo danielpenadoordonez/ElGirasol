@@ -5,8 +5,7 @@
     padding: 0.1rem;
     padding-left: 2%;
     padding-right: 2%;
-    background-color: #ffccd5; /* Rosado claro */
-    background-color: rgb(238, 238, 16);
+    background-color: var(--main-color);
   }
   
   .navbar-logo {

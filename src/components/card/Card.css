@@ -1,0 +1,35 @@
+.card {
+    flex: 1 1 30%; /* Toma aproximadamente un tercio del ancho del contenedor */
+    max-width: 30%;
+    padding: 1rem;
+    border: 1px solid #a8a30b;
+    background-color: var(--secondary-color);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    color: rgb(72, 72, 6);
+  }
+
+  /* Imagen dentro del card */
+.card-image {
+    width: 100%; /* Ocupa todo el ancho del card */
+    height: auto; /* Mantiene la proporción */
+    object-fit: cover; /* Recorta la imagen para que se ajuste sin distorsión */
+    display: block;
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    border-radius: 8px; /* Opcional: aplica bordes redondeados */
+  }
+
+
+ /* Ajustes generales para dispositivos pequeños */
+@media (max-width: 768px) {
+    .card {
+        display: block;
+        width: 100%; /* Cada tarjeta ocupa todo el ancho en pantallas pequeñas */
+        max-width: 100%;
+        margin: 0;
+      }
+}
