@@ -20,7 +20,7 @@
     object-fit: cover; /* Recorta la imagen para que se ajuste sin distorsión */
     display: block;
     margin: 0 auto; /* Centra la imagen horizontalmente */
-    border-radius: 8px; /* Opcional: aplica bordes redondeados */
+    border-radius: 20px; /* Opcional: aplica bordes redondeados */
   }
 
 

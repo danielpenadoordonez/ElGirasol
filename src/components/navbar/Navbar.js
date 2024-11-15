@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -10,13 +11,15 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <h1 className="navbar-logo">Floristería El Girasol</h1>
+      <Link to="/" className="navbar-logo">
+        <img src="/images/home/NavbarLogo2.jpg" alt="El Girasol Logo" className="navbar-logo" />
+      </Link>
       <ul className="navbar-links">
         <li>
-          <a href="#home">Inicio</a>
+        <Link to="/">Inicio</Link>
         </li>
         <li>
-          <a href="#about">Sobre Nosotros</a>
+          <Link to="/acerca-de">Quienes Somos</Link>
         </li>
         <li className="dropdown" onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}>
           <span className="dropdown-toggle">Categorías</span>

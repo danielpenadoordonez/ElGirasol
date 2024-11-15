@@ -1,0 +1,37 @@
+.about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    color: #333;
+  }
+  
+  .about h1 {
+    font-size: 2.5rem;
+    color: black; /* Un color amarillo similar al de un girasol */
+  }
+  
+  .about p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 1rem 0;
+  }
+
+
+/* Estilos de la imagen del logo */
+.about-logo {
+    width: 400px; /* Tamaño base, ajustable */
+    height: 400px; /* Igual al ancho para asegurar la forma circular */
+    object-fit: cover; /* Hace que la imagen se recorte y se ajuste dentro del contenedor circular */
+    border-radius: 50%; /* Forma circular */
+    margin-top: 1.5rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Opcional: Sombra para resaltarla */
+  }
+  
+  /* Responsividad: Escala el logo en pantallas más pequeñas */
+  @media (max-width: 600px) {
+    .about-logo {
+      width: 300px;
+      height: 300px;
+    }
+  }

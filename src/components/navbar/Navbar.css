@@ -7,13 +7,17 @@
     padding-right: 2%;
     background-color: var(--main-color);
   }
-  
+
   .navbar-logo {
-    font-size: 1.8rem;
-    font-weight: bold;
-    color: #ff6699; /* Tono rosado oscuro */
-    font-family:'Times New Roman', Times, serif;
-    color: rgb(50, 44, 44);
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-logo{
+    width: 90px; /* Tamaño base, ajústalo según lo que necesites */
+    height: 90px; /* Misma altura para que sea circular */
+    object-fit: fill; /* Ajusta la imagen dentro del contenedor */
+    border-radius: 50%; /* Hace que sea circular */
   }
   
   .navbar-links {
@@ -69,6 +73,11 @@
   .navbar {
     flex-direction: column;
     padding: 1rem;
+  }
+
+  .logo-image {
+    width: 100px;
+    height: 100px;
   }
 
   .navbar-links {

@@ -14,15 +14,19 @@
   }
   
   .header {
-    padding: 24rem;
-    background-color: var(--main-color);
-    background-image: url('Logo.jpg'); /* Ruta de tu imagen */
-    background-size: cover; /* Asegura que la imagen cubra toda el área del header */
-    background-position: center; /* Centra la imagen */
-    background-repeat: no-repeat; /* Evita que la imagen se repita */
-    color: white; /* Para que el texto sea legible sobre la imagen */
-    text-align: center;
-    object-fit: cover;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    padding: 2rem;
+    /* Otros estilos de header */
+  }
+  
+  .header-logo {
+    width: 650px; /* Tamaño base */
+    height: 650px; /* Mantén el mismo tamaño en ambas dimensiones para hacerlo circular */
+    object-fit: cover; /* Ajusta la imagen dentro del contenedor */
+    border-radius: 25%; /* Hace que sea circular */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra opcional */
   }
   
   .title {
@@ -31,10 +35,18 @@
   }
   
   .subtitle {
-    font-size: 1.5rem;
-    color: var(--text-color);
-    margin: 2%;
+    font-size: 2.5rem; /* Tamaño de fuente grande */
+    color: rgb(5, 108, 28); /* Color rosado llamativo */
+    font-weight: bold; /* Fuente en negrita */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra para que se destaque */
+    margin: 2rem 0;
   }
+
+  /* .subtitle{
+    background: linear-gradient(45deg, #f3d707, #035e21);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+  } */
  
   .main-content {
     display: flex;
@@ -49,9 +61,9 @@
 
 
   /* Ajustes del Header */
-  .header {
-    padding: 6rem; /* Reduce el padding para pantallas pequeñas */
-    text-align: center;
+  .header-logo {
+    width: 300px;
+    height: 300px;
   }
 
   .title {
