@@ -1,0 +1,85 @@
+.contact {
+    padding: 2rem;
+    text-align: center;
+    background-color: white; /* Fondo claro y atractivo */
+  }
+  
+  .contact-title {
+    font-size: 2.5rem;
+    color: rgb(237, 153, 9); /* Rosa llamativo */
+    margin-bottom: 1rem;
+  }
+  
+  .contact-info {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  
+  .contact-form-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: rgb(237, 153, 9);
+  }
+  
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #555;
+    text-align: left;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .contact-form button {
+    background-color: rgb(237, 153, 9);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: rgb(177, 116, 11);
+  }
+  
+  /* Responsividad */
+  @media (max-width: 600px) {
+    .contact {
+      padding: 1rem;
+    }
+  
+    .contact-title {
+      font-size: 2rem;
+    }
+  
+    .contact-form {
+      padding: 1rem;
+    }
+  
+    .contact-form input,
+    .contact-form textarea {
+      font-size: 0.9rem;
+    }
+  }

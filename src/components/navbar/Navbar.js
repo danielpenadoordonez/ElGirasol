@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -12,7 +13,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <Link to="/" className="navbar-logo">
-        <img src="/images/home/NavbarLogo2.jpg" alt="El Girasol Logo" className="navbar-logo" />
+        <img src="/images/home/NavbarLogo.jpg" alt="El Girasol Logo" className="navbar-logo" />
       </Link>
       <ul className="navbar-links">
         <li>
@@ -39,7 +40,7 @@ const Navbar = () => {
           )}
         </li>
         <li>
-          <a href="#contact">Contáctenos</a>
+        <Link to="/contactenos">Contáctenos</Link>
         </li>
       </ul>
     </nav>

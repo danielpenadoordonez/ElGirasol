@@ -1,8 +1,8 @@
 import React from "react";
-import "./Home.css";
-import Footer from "../footer/Footer";
-import Navbar from "../navbar/Navbar";
-import Card from "../card/Card";
+import "./css/Home.css";
+import Navbar from "../components/navbar/Navbar";
+import Card from "../components/card/Card";
+import Footer from "../components/footer/Footer";
 import { Link } from "react-router-dom";
 
 const Home = () => {
