@@ -1,11 +1,10 @@
 .card {
-    flex: 1 1 30%; /* Toma aproximadamente un tercio del ancho del contenedor */
-    max-width: 30%;
-    padding: 1rem;
-    border: 1px solid #a8a30b;
+    /* flex: 1 1 30%; */
+    max-width: 100%;
+    padding: 0.2rem;
     background-color: var(--secondary-color);
-    border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
   }
   
   .card-title {
@@ -23,6 +22,10 @@
     border-radius: 20px; /* Opcional: aplica bordes redondeados */
   }
 
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
 
  /* Ajustes generales para dispositivos pequeños */
 @media (max-width: 768px) {

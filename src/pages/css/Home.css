@@ -55,6 +55,13 @@
     gap: 1rem;
     padding: 2rem;
   }
+  
+  .card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding-bottom: 1.5%;
+  }
 
   /* Ajustes generales para dispositivos pequeños */
 @media (max-width: 768px) {
