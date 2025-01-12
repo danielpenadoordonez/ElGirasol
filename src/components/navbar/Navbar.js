@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 import "./Navbar.css";
+import categories from '../../data/categories.json';
 
 const Navbar = () => {
   const [dropdownVisible, setDropdownVisible] = useState(false);
@@ -26,16 +27,11 @@ const Navbar = () => {
           <span className="dropdown-toggle">Categorías</span>
           {dropdownVisible && (
             <ul className="dropdown-menu">
-              <li><a href="#flowers">Ramos de Flores</a></li>
-              <li><a href="#arrangements">Arreglos Florales</a></li>
-              <li><a href="#arrangements">Flores Artificiales</a></li>
-              <li><a href="#bodas">Bodas</a></li>
-              <li><a href="#graducciones">Graduaciones</a></li>
-              <li><a href="#funerales">Funerales</a></li>
-              <li><a href="#aniversarios">Aniversarios</a></li>
-              <li><a href="#hogar">Decoración del Hogar</a></li>
-              <li><a href="#empaques">Empaques para Regalos</a></li>
-              <li><a href="#otros">Otros</a></li>
+              {categories.map((category) => (
+                <Link to="/" key={category.id}>
+                  <li><a>{category.name}</a></li>
+              </Link>
+              ))}
             </ul>
           )}
         </li>

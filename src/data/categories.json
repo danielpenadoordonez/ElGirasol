@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "name": "Ramos de Flores",
+        "imageSrc": "/images/home/cards/Card.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Arreglos Florales",
+        "imageSrc": "/images/home/cards/Card.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Flores Artificiales",
+        "imageSrc": "/images/home/cards/Card.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Bodas",
+        "imageSrc": "/images/home/cards/Card.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Funerales",
+        "imageSrc": "/images/home/cards/Card.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Aniversarios",
+        "imageSrc": "/images/home/cards/Card.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Decoración del hogar",
+        "imageSrc": "/images/home/cards/Card.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Empaques para regalos",
+        "imageSrc": "/images/home/cards/Card.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Graduaciones",
+        "imageSrc": "/images/home/cards/Card.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Otros",
+        "imageSrc": "/images/home/cards/Card.jpg"
+    }
+]
