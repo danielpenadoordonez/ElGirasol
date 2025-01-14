@@ -1,0 +1,42 @@
+{
+  "ramos": [
+    {
+      "id": 1,
+      "name": "Ramo de Rosas Rojas",
+      "price": "$50.00",
+      "imageSrc": "/images/home/cards/Card.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Ramo de Lirios Blancos",
+      "price": "$45.00",
+      "imageSrc": "/images/home/cards/Card.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Ramo de Tulipanes",
+      "price": "$60.00",
+      "imageSrc": "/images/home/cards/Card.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Ramo de Girasoles",
+      "price": "$55.00",
+      "imageSrc": "/images/home/cards/Card.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Ramo de Llerberas",
+      "price": "$55.00",
+      "imageSrc": "/images/home/cards/Card.jpg"
+    }
+  ],
+  "arreglos": [
+    {
+      "id": 1,
+      "name": "Arreglo de Hortencias",
+      "price": "$55.00",
+      "imageSrc": "/images/home/cards/Card.jpg"
+    }
+  ]
+}

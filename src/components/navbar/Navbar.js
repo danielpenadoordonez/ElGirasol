@@ -28,7 +28,7 @@ const Navbar = () => {
           {dropdownVisible && (
             <ul className="dropdown-menu">
               {categories.map((category) => (
-                <Link to="/" key={category.id}>
+                <Link to={category.gallery_path} key={category.id}>
                   <li><a>{category.name}</a></li>
               </Link>
               ))}

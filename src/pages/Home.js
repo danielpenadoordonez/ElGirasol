@@ -16,7 +16,7 @@ const Home = () => {
       <p className="subtitle">"Las flores hacen los momentos más especiales"</p>
       <section className="main-content">
         {categories.map((category) => (
-          <Link to="/" className="card-link" key={category.id}>
+          <Link to={category.gallery_path} className="card-link" key={category.id}>
             <Card title={category.name} imageSrc={category.imageSrc}/>
           </Link>
         ))}
