@@ -38,5 +38,19 @@
       "price": "$55.00",
       "imageSrc": "/images/home/cards/Card.jpg"
     }
+  ],
+  "artificiales": [
+    {
+      "id": 1,
+      "name": "Rosas Rojas",
+      "price": "$35.00",
+      "imageSrc": "/images/home/cards/Card.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Girasoles",
+      "price": "$32.00",
+      "imageSrc": "/images/home/cards/Card.jpg"
+    }
   ]
 }

@@ -3,19 +3,19 @@
         "id": "ramos",
         "name": "Ramos de Flores",
         "imageSrc": "/images/home/cards/Card.jpg",
-        "gallery_path": "/ramos"
+        "gallery_path": "/galeria/ramos"
     },
     {
         "id": "arreglos",
         "name": "Arreglos Florales",
         "imageSrc": "/images/home/cards/Card.jpg",
-        "gallery_path": "/arreglos"
+        "gallery_path": "/galeria/arreglos"
     },
     {
-        "id": 3,
+        "id": "artificiales",
         "name": "Flores Artificiales",
         "imageSrc": "/images/home/cards/Card.jpg",
-        "gallery_path": "/gallery"
+        "gallery_path": "/galeria/artificiales"
     },
     {
         "id": 4,
