@@ -3,12 +3,21 @@ import './css/Gallery.css';
 import Navbar from '../components/navbar/Navbar';
 import Footer from '../components/footer/Footer';
 import { useParams } from 'react-router-dom';
-import galleries from '../data/galleries.json';
+import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import products from '../data/products.json';
 import categories from '../data/categories.json';
 
 const Gallery = () => {
   const { category } = useParams();
-  const galleryByCategory = galleries[category]
+  const navitate = useNavigate()
+  var productsByCategory = null
+
+  try {
+    productsByCategory = products[category]
+  } catch (error) {
+    navitate('/*')
+  }
   var galleryTitle = ""
 
   const createGalleryTitle = () => {
@@ -27,12 +36,12 @@ const Gallery = () => {
       <div className="gallery-container">
       {galleryTitle}
       <div className="gallery-grid">
-          {galleryByCategory.map((gallery) => (
-          <div className="gallery-card" key={gallery.id}>
-              <img src={gallery.imageSrc} alt={gallery.name} className="gallery-image" />
-              <h3 className="gallery-card-title">{gallery.name}</h3>
-              <p className="gallery-card-price">{gallery.price}</p>
-          </div>
+          {productsByCategory.map((product) => (
+           <Link key={product.id} to={`/galeria/${category}/${product.id}`} className="gallery-card">  
+              <img src={product.imageSrc} alt={product.name} className="gallery-image" />
+              <h3 className="gallery-card-title">{product.name}</h3>
+              <p className="gallery-card-price">{product.price}</p>
+          </Link>
           ))}
       </div>
       </div>
