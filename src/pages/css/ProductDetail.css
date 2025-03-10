@@ -1,5 +1,4 @@
-
-.product-detail-container {
+/* .product-detail-container {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -45,7 +44,6 @@
     background-color: #d9534f;
   }
   
-  /* Responsividad */
   @media (max-width: 768px) {
     .product-detail-container {
       flex-direction: column;
@@ -56,4 +54,93 @@
       width: 100%;
       max-width: 300px;
     }
+  } */
+  .product-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .product-price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff6347;
+  }
+  
+  .product-image {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+  }
+  
+  .product-info {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 20px;
+  }
+  
+  .order-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .order-form input,
+  .order-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .order-form button {
+    background-color: #ff9800;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 4%;
+  }
+  
+  .order-form button:hover {
+    background-color: #e68900;
+  }
+
+  .product-detail h1 {
+    font-size: 2.5rem;  /* Tamaño grande */
+    font-weight: bold;  /* Negrita */
+    color: rgb(237, 153, 9);  /* Color llamativo */
+    text-transform: uppercase;  /* Texto en mayúsculas */
+    margin-bottom: 10px;
+  }
+
+  .order-form label {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .order-form input[type="datetime-local"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+
+  .important-note {
+    font-size: 1rem;
+    color: #d32f2f;  /* Rojo llamativo */
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: center;
+  }
+
+  .product-description {
+    font-size: 18px;
+    color: #555;
   }
