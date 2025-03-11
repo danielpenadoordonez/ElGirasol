@@ -3,7 +3,10 @@ import { useState } from 'react';
 import Navbar from '../components/navbar/Navbar';
 import Footer from '../components/footer/Footer';
 import { useParams } from 'react-router-dom';
-import productsData from '../data/products.json'; // Archivo JSON con productos
+import emailjs from "emailjs-com";
+import productsData from '../data/products.json'; 
+import { NotificationContainer, NotificationManager } from "react-notifications";
+import "react-notifications/lib/notifications.css";
 import './css/ProductDetail.css';
 
 const ProductDetail = () => {
@@ -23,17 +26,60 @@ const ProductDetail = () => {
     return <h2>Producto no encontrado</h2>;
   }
 
+  const formatDateTime = (datetime) => {
+    const date = new Date(datetime);
+  
+    // Obtener día, mes y año
+    const day = date.getDate();
+    const month = date.toLocaleString("es-ES", { month: "long" }); // Mes en texto
+    const year = date.getFullYear();
+  
+    // Formatear la hora en hh:mm AM/PM
+    let hours = date.getHours();
+    const minutes = date.getMinutes();
+    const ampm = hours >= 12 ? "PM" : "AM";
+  
+    hours = hours % 12 || 12; // Convierte 0 en 12 para formato 12h
+    const formattedMinutes = minutes < 10 ? `0${minutes}` : minutes; // Siempre dos dígitos
+  
+    return `${day} de ${month} de ${year}, ${hours}:${formattedMinutes} ${ampm}`;
+  };
+
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("Pedido realizado:", {
+    const formattedDateTime = formatDateTime(formData.pickupDateTime);
+
+    const templateParams = {
+      to_email: "penadodan02@gmail.com",
       producto: product.name,
-      ...formData,
-    });
-    alert(`Pedido registrado correctamente. Nos pondremos en contacto contigo.`);
+      precio: product.price,
+      nombre_cliente: formData.name,
+      telefono: formData.phone,
+      detalles: formData.details,
+      fecha_hora: formattedDateTime,
+    };
+
+    emailjs
+      .send(
+        "service_uj4avks", // Coloca tu Service ID de EmailJS
+        "template_ac4dmje", // Coloca tu Template ID de EmailJS
+        templateParams,
+        "ZoYFPiadv6X_AIMCL" // Coloca tu Public Key de EmailJS
+      )
+      .then(
+        (response) => {
+          console.log("Correo enviado con éxito:", response);
+         NotificationManager.success("Pedido enviado correctamente. Nos pondremos en contacto contigo.", "", 4000);
+        },
+        (error) => {
+          console.error("Error al enviar el correo:", error);
+          NotificationManager.error("Hubo un problema al enviar el pedido.", "Error", 4000);
+        }
+      );
   };
 
   return (
@@ -58,6 +104,7 @@ const ProductDetail = () => {
         </form>
       </div>
     </div>
+    <NotificationContainer />
     <Footer />
     </div>
   );
