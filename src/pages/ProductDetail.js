@@ -86,14 +86,17 @@ const ProductDetail = () => {
     <div>
     <Navbar />
     <div className="product-detail">
-      <h1>{product.name}</h1>
-      <img src={product.imageSrc} alt={product.name} className="product-image" />
+    <h1>{product.name}</h1>
+    <div className="product-container">
+      
       <div className="product-info">
+      <img src={product.imageSrc} alt={product.name} className="product-image" />
       <p className="product-description">{product.description}</p>
-        <p className="product-price">Precio: {product.price}</p>
+      <p className="product-price">Precio Base: {product.price}</p>
+      </div>
 
-        <h3>¿Deseas pedirlo?</h3>
         <form onSubmit={handleSubmit} className="order-form">
+          <h3>Pedir este producto</h3>
           <input type="text" name="name" placeholder="Tu Nombre" value={formData.name} onChange={handleChange} required />
           <input type="tel" name="phone" placeholder="Tu Teléfono" value={formData.phone} onChange={handleChange} required />
           <textarea name="details" placeholder="Algun detalle que quieras" value={formData.details} onChange={handleChange} ></textarea>
