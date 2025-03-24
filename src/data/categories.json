@@ -2,61 +2,31 @@
     {
         "id": "ramos",
         "name": "Ramos de Flores",
-        "imageSrc": "/images/home/cards/Card.jpg",
+        "imageSrc": "/images/home/cards/Ramos.jpg",
         "gallery_path": "/galeria/ramos"
     },
     {
         "id": "arreglos",
         "name": "Arreglos Florales",
-        "imageSrc": "/images/home/cards/Card.jpg",
+        "imageSrc": "/images/home/cards/Arreglos.jpg",
         "gallery_path": "/galeria/arreglos"
     },
     {
-        "id": "artificiales",
-        "name": "Flores Artificiales",
-        "imageSrc": "/images/home/cards/Card.jpg",
-        "gallery_path": "/galeria/artificiales"
-    },
-    {
-        "id": 4,
+        "id": "bodas",
         "name": "Bodas",
-        "imageSrc": "/images/home/cards/Card.jpg",
-        "gallery_path": "/gallery"
+        "imageSrc": "/images/home/cards/Bodas.jpg",
+        "gallery_path": "/galeria/bodas"
     },
     {
-        "id": 5,
-        "name": "Funerales",
-        "imageSrc": "/images/home/cards/Card.jpg",
-        "gallery_path": "/gallery"
+        "id": "detalles",
+        "name": "Detalles Especiales",
+        "imageSrc": "/images/home/cards/Detalles.jpg",
+        "gallery_path": "/galeria/detalles"
     },
     {
-        "id": 6,
-        "name": "Aniversarios",
-        "imageSrc": "/images/home/cards/Card.jpg",
-        "gallery_path": "/gallery"
-    },
-    {
-        "id": 7,
-        "name": "Decoración del hogar",
-        "imageSrc": "/images/home/cards/Card.jpg",
-        "gallery_path": "/gallery"
-    },
-    {
-        "id": 8,
-        "name": "Empaques para regalos",
-        "imageSrc": "/images/home/cards/Card.jpg",
-        "gallery_path": "/gallery"
-    },
-    {
-        "id": 9,
-        "name": "Graduaciones",
-        "imageSrc": "/images/home/cards/Card.jpg",
-        "gallery_path": "/gallery"
-    },
-    {
-        "id": 10,
-        "name": "Otros",
-        "imageSrc": "/images/home/cards/Card.jpg",
-        "gallery_path": "/gallery"
+        "id": "accesorios",
+        "name": "Accesorios",
+        "imageSrc": "/images/home/cards/Accesorios.jpg",
+        "gallery_path": "/galeria/accesorios"
     }
 ]

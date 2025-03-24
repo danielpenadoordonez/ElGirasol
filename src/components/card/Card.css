@@ -15,11 +15,11 @@
   /* Imagen dentro del card */
 .card-image {
     width: 100%; /* Ocupa todo el ancho del card */
-    height: auto; /* Mantiene la proporción */
+    height: 500px; /* Mantiene la proporción */
     object-fit: cover; /* Recorta la imagen para que se ajuste sin distorsión */
     display: block;
     margin: 0 auto; /* Centra la imagen horizontalmente */
-    border-radius: 20px; /* Opcional: aplica bordes redondeados */
+    border-radius: 5px; /* Opcional: aplica bordes redondeados */
   }
 
   .card:hover {
