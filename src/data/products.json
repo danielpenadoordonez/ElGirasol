@@ -4,8 +4,36 @@
       "id": 1,
       "name": "Girasoles",
       "price": "$50.00",
-      "imageSrc": "/images/home/cards/Ramos.jpg",
+      "imageSrc": "/images/products/ramos/girasoles.jpg",
       "description": "Hermoso ramo de girasoles que le van a dar vida a cualquier ambiente donde los pongas"
+    },
+    {
+      "id": 2,
+      "name": "Rosas Rojas",
+      "price": "$50.00",
+      "imageSrc": "/images/products/ramos/rosasrojas.jpg",
+      "description": "Exquisito ramo de rosas rojas es la elección ideal para quienes buscan regalar elegancia y amor en su máxima expresión"
+    },
+    {
+      "id": 3,
+      "name": "Gerberas",
+      "price": "$50.00",
+      "imageSrc": "/images/products/ramos/gerberas.jpg",
+      "description": "Nuestro hermoso ramo de gerberas es ideal para regalar felicidad. Flores frescas y llenas de color"
+    },
+    {
+      "id": 4,
+      "name": "Rosas y Girasoles",
+      "price": "$50.00",
+      "imageSrc": "/images/products/ramos/rosasygirasoles.jpg",
+      "description": "Déjate enamorar por la combinación perfecta de rosas y girasoles. Un ramo vibrante, lleno de color y significado"
+    },
+    {
+      "id": 5,
+      "name": "Combinado",
+      "price": "$50.00",
+      "imageSrc": "/images/products/ramos/combinado.jpg",
+      "description": "Nuestro ramo mixto es la opción perfecta para quienes buscan un estallido de color y frescura en un solo ramo."
     }
   ],
   "arreglos": [

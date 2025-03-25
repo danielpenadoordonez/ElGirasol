@@ -63,6 +63,42 @@
   .contact-form button:hover {
     background-color: rgb(177, 116, 11);
   }
+
+  .contact-container {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espacio entre los íconos */
+  }
+  
+  .social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .instagram {
+    background-color: #e1306c; /* Color de Instagram */
+    color: white;
+  }
+  
+  .facebook {
+    background-color: #1877f2; /* Color de Facebook */
+    color: white;
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.1); /* Efecto al pasar el mouse */
+  }
   
   /* Responsividad */
   @media (max-width: 600px) {

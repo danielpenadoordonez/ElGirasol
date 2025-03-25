@@ -15,7 +15,7 @@
   /* Imagen dentro del card */
 .card-image {
     width: 100%; /* Ocupa todo el ancho del card */
-    height: 500px; /* Mantiene la proporción */
+    height: 450px; /* Mantiene la proporción */
     object-fit: cover; /* Recorta la imagen para que se ajuste sin distorsión */
     display: block;
     margin: 0 auto; /* Centra la imagen horizontalmente */

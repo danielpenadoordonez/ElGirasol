@@ -10,7 +10,7 @@ const Footer = () => {
         <p><FaPhoneAlt className="contact-icon" />  2446 8262</p>
         <p><FaPhoneAlt className="contact-icon" /> +506 8584 7040</p>
         <p><FaEnvelope className="contact-icon" />  johavm85@gmail.com</p>
-        <p><FaMapMarkerAlt className="contact-icon" />   Atenas Centro, Calle Pinguino, Atenas, Costa Rica</p>
+        <p><FaMapMarkerAlt className="contact-icon" /> Atenas Centro, Entrada frente a Cafetería Baruch, Atenas, Costa Rica</p>
     </footer>
     )
 }
