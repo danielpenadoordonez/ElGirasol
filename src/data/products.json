@@ -39,10 +39,45 @@
   "arreglos": [
     {
       "id": 1,
-      "name": "Rosas con Chocolates",
+      "name": "Abanico de Rosas",
       "price": "$55.00",
-      "imageSrc": "/images/home/cards/Arreglos.jpg",
+      "imageSrc": "/images/products/arreglos/abanicoDeRosas.jpg",
       "description": "Muchisimas rosas rojas acompañadas de deliciosos chocolates y una bebida espumeante"
+    },
+    {
+      "id": 2,
+      "name": "Canastita",
+      "price": "$55.00",
+      "imageSrc": "/images/products/arreglos/canastita.jpg",
+      "description": "Muchisimas rosas rojas acompañadas de deliciosos chocolates y una bebida espumeante"
+    },
+    {
+      "id": 3,
+      "name": "Canasta Variada",
+      "price": "$55.00",
+      "imageSrc": "/images/products/arreglos/canastaVariada.jpg",
+      "description": "Muchisimas rosas rojas acompañadas de deliciosos chocolates y una bebida espumeante"
+    },
+    {
+      "id": 4,
+      "name": "Tributo",
+      "price": "$55.00",
+      "imageSrc": "/images/products/arreglos/tributo.jpg",
+      "description": "Muchisimas rosas rojas acompañadas de deliciosos chocolates y una bebida espumeante"
+    },
+    {
+      "id": 5,
+      "name": "Vasito con Rosas",
+      "price": "$55.00",
+      "imageSrc": "/images/products/arreglos/vasitoConRosas.jpg",
+      "description": "Muchisimas rosas rojas acompañadas de deliciosos chocolates y una bebida espumeante"
+    },
+    {
+      "id": 6,
+      "name": "Arreglo Artificial",
+      "price": "$55.00",
+      "imageSrc": "/images/products/arreglos/arregloArtificial.jpg",
+      "description": "Perfecto para decorar algún espacio del hogar o la oficina"
     }
   ],
   "bodas": [
@@ -50,17 +85,43 @@
       "id": 1,
       "name": "Decoración para Queque",
       "price": "$35.00",
-      "imageSrc": "/images/home/cards/Bodas.jpg",
-      "description": ""
-    }
-  ],
-  "accesorios": [
+      "imageSrc": "/images/products/bodas/arregloQueque.jpg",
+      "description": "Hermoso y sencillo arreglo para el queque de boda"
+    },
     {
-      "id": 1,
-      "name": "Mini baúl de madera",
+      "id": 2,
+      "name": "Bouquet",
       "price": "$35.00",
-      "imageSrc": "/images/home/cards/Accesorios.jpg",
-      "description": "Mini baúl de madera para guardar cualquier otro accesorio pequeño que desees"
+      "imageSrc": "/images/products/bodas/bouquet.jpg",
+      "description": "Hermoso y sencillo arreglo para el queque de boda"
+    },
+    {
+      "id": 3,
+      "name": "Botonniere",
+      "price": "$35.00",
+      "imageSrc": "/images/products/bodas/botonniere.jpg",
+      "description": "Hermoso y sencillo arreglo para el queque de boda"
+    },
+    {
+      "id": 4,
+      "name": "Corsage",
+      "price": "$35.00",
+      "imageSrc": "/images/products/bodas/corsage.jpg",
+      "description": "Hermoso y sencillo arreglo para el queque de boda"
+    },
+    {
+      "id": 5,
+      "name": "Centro de Mesa",
+      "price": "$35.00",
+      "imageSrc": "/images/products/bodas/centroMesa.jpg",
+      "description": "Hermoso y sencillo arreglo para el queque de boda"
+    },
+    {
+      "id": 6,
+      "name": "Baúl para Anillos",
+      "price": "$35.00",
+      "imageSrc": "/images/products/bodas/baulAnillos.jpg",
+      "description": "Hermoso y sencillo arreglo para el queque de boda"
     }
   ],
   "detalles": [
@@ -68,8 +129,87 @@
       "id": 1,
       "name": "Bombillo de Rosa",
       "price": "$35.00",
-      "imageSrc": "/images/home/cards/Detalles.jpg",
+      "imageSrc": "/images/products/detalles/bombilloRosa.jpg",
       "description": "Bombillo con nido de rosa cubierto de luces amarillas"
+    },
+    {
+      "id": 2,
+      "name": "Arreglo de Chocolates",
+      "price": "$35.00",
+      "imageSrc": "/images/products/detalles/arregloChocolates.jpg",
+      "description": "Bombillo con nido de rosa cubierto de luces amarillas"
+    },
+    {
+      "id": 3,
+      "name": "Baúl Combinado",
+      "price": "$35.00",
+      "imageSrc": "/images/products/detalles/baulCombinado.jpg",
+      "description": "Bombillo con nido de rosa cubierto de luces amarillas"
+    },
+    {
+      "id": 4,
+      "name": "Cajita para Aniversario",
+      "price": "$35.00",
+      "imageSrc": "/images/products/detalles/cajitaAniversario.jpg",
+      "description": "Bombillo con nido de rosa cubierto de luces amarillas"
+    },
+    {
+      "id": 5,
+      "name": "Collar para Perrita",
+      "price": "$35.00",
+      "imageSrc": "/images/products/detalles/collarPerro.jpg",
+      "description": "Bombillo con nido de rosa cubierto de luces amarillas"
+    },
+    {
+      "id": 6,
+      "name": "Regalo con Osito para Té",
+      "price": "$35.00",
+      "imageSrc": "/images/products/detalles/ositoTe.jpg",
+      "description": "Bombillo con nido de rosa cubierto de luces amarillas"
+    }
+  ],
+  "accesorios": [
+    {
+      "id": 1,
+      "name": "Mini baúl de madera",
+      "price": "$35.00",
+      "imageSrc": "/images/products/accesorios/miniBaul.jpg",
+      "description": "Mini baúl de madera para guardar anillos u otros accesorios"
+    },
+    {
+      "id": 2,
+      "name": "Juego de Collar y Aretes",
+      "price": "$35.00",
+      "imageSrc": "/images/products/accesorios/collarAretes.jpg",
+      "description": "Mini baúl de madera para guardar anillos u otros accesorios"
+    },
+    {
+      "id": 3,
+      "name": "Coronita para Fotos",
+      "price": "$35.00",
+      "imageSrc": "/images/products/accesorios/coronita.jpg",
+      "description": "Mini baúl de madera para guardar anillos u otros accesorios"
+    },
+    {
+      "id": 4,
+      "name": "Empaque para Regalo",
+      "price": "$35.00",
+      "imageSrc": "/images/products/accesorios/empaque.jpg",
+      "description": "Mini baúl de madera para guardar anillos u otros accesorios"
+    },
+    {
+      "id": 5,
+      "name": "Juego Triple Pulsera",
+      "price": "$35.00",
+      "imageSrc": "/images/products/accesorios/triplePulsera.jpg",
+      "description": "Mini baúl de madera para guardar anillos u otros accesorios"
+    },
+    {
+      "id": 6,
+      "name": "Vela Decorada",
+      "price": "$35.00",
+      "imageSrc": "/images/products/accesorios/velaDecorada.jpg",
+      "description": "Mini baúl de madera para guardar anillos u otros accesorios"
     }
   ]
 }

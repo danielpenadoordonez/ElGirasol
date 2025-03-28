@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <Link to="/" className="navbar-logo">
-        <img src="/images/home/NavbarLogo.jpg" alt="El Girasol Logo" className="navbar-logo" />
+        <img src="/images/home/Icon.png" alt="El Girasol Logo" className="navbar-logo" />
       </Link>
       <ul className="navbar-links">
         <li>
