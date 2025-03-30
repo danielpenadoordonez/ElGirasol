@@ -12,7 +12,7 @@
       "name": "Rosas Rojas",
       "price": "$50.00",
       "imageSrc": "/images/products/ramos/rosasrojas.jpg",
-      "description": "Exquisito ramo de rosas rojas es la elección ideal para quienes buscan regalar elegancia y amor en su máxima expresión"
+      "description": "Exquisito ramo de rosas rojas para quienes buscan regalar elegancia y amor"
     },
     {
       "id": 3,
@@ -26,14 +26,21 @@
       "name": "Rosas y Girasoles",
       "price": "$50.00",
       "imageSrc": "/images/products/ramos/rosasygirasoles.jpg",
-      "description": "Déjate enamorar por la combinación perfecta de rosas y girasoles. Un ramo vibrante, lleno de color y significado"
+      "description": "Combinación perfecta de rosas y girasoles. Un ramo vibrante, lleno de color y significado"
     },
     {
       "id": 5,
       "name": "Combinado",
       "price": "$50.00",
       "imageSrc": "/images/products/ramos/combinado.jpg",
-      "description": "Nuestro ramo mixto es la opción perfecta para quienes buscan un estallido de color y frescura en un solo ramo."
+      "description": "Es la opción perfecta para quienes buscan un estallido de color y frescura en un solo ramo."
+    },
+    {
+      "id": 6,
+      "name": "Girasol Colorido",
+      "price": "$50.00",
+      "imageSrc": "/images/products/ramos/girasolColorido.jpg",
+      "description": "Un girasol rodeado de florcitas ordenadas por diferentes colores, dando un toque unico a tu ramo"
     }
   ],
   "arreglos": [
@@ -42,42 +49,42 @@
       "name": "Abanico de Rosas",
       "price": "$55.00",
       "imageSrc": "/images/products/arreglos/abanicoDeRosas.jpg",
-      "description": "Muchisimas rosas rojas acompañadas de deliciosos chocolates y una bebida espumeante"
+      "description": "Rosas rojas en forma de abanico acompañadas de deliciosos chocolates y una bebida espumeante"
     },
     {
       "id": 2,
       "name": "Canastita",
       "price": "$55.00",
       "imageSrc": "/images/products/arreglos/canastita.jpg",
-      "description": "Muchisimas rosas rojas acompañadas de deliciosos chocolates y una bebida espumeante"
+      "description": "Perfecta para colocar en cualquier espacio, es coqueto y facil de mover"
     },
     {
       "id": 3,
       "name": "Canasta Variada",
       "price": "$55.00",
       "imageSrc": "/images/products/arreglos/canastaVariada.jpg",
-      "description": "Muchisimas rosas rojas acompañadas de deliciosos chocolates y una bebida espumeante"
+      "description": "Rosas, girasoles, gerberas y otras flores todas en un mismo canasto"
     },
     {
       "id": 4,
       "name": "Tributo",
       "price": "$55.00",
       "imageSrc": "/images/products/arreglos/tributo.jpg",
-      "description": "Muchisimas rosas rojas acompañadas de deliciosos chocolates y una bebida espumeante"
+      "description": ""
     },
     {
       "id": 5,
       "name": "Vasito con Rosas",
       "price": "$55.00",
       "imageSrc": "/images/products/arreglos/vasitoConRosas.jpg",
-      "description": "Muchisimas rosas rojas acompañadas de deliciosos chocolates y una bebida espumeante"
+      "description": "Imagínate un vasito con 4 rosas que se puede colocar en cualquier parte del hogar"
     },
     {
       "id": 6,
       "name": "Arreglo Artificial",
       "price": "$55.00",
       "imageSrc": "/images/products/arreglos/arregloArtificial.jpg",
-      "description": "Perfecto para decorar algún espacio del hogar o la oficina"
+      "description": "Un arreglo que nunca se te va a marchitar ni va a perder su encanto"
     }
   ],
   "bodas": [
@@ -93,35 +100,35 @@
       "name": "Bouquet",
       "price": "$35.00",
       "imageSrc": "/images/products/bodas/bouquet.jpg",
-      "description": "Hermoso y sencillo arreglo para el queque de boda"
+      "description": ""
     },
     {
       "id": 3,
       "name": "Botonniere",
       "price": "$35.00",
       "imageSrc": "/images/products/bodas/botonniere.jpg",
-      "description": "Hermoso y sencillo arreglo para el queque de boda"
+      "description": ""
     },
     {
       "id": 4,
       "name": "Corsage",
       "price": "$35.00",
       "imageSrc": "/images/products/bodas/corsage.jpg",
-      "description": "Hermoso y sencillo arreglo para el queque de boda"
+      "description": ""
     },
     {
       "id": 5,
       "name": "Centro de Mesa",
       "price": "$35.00",
       "imageSrc": "/images/products/bodas/centroMesa.jpg",
-      "description": "Hermoso y sencillo arreglo para el queque de boda"
+      "description": ""
     },
     {
       "id": 6,
       "name": "Baúl para Anillos",
       "price": "$35.00",
       "imageSrc": "/images/products/bodas/baulAnillos.jpg",
-      "description": "Hermoso y sencillo arreglo para el queque de boda"
+      "description": ""
     }
   ],
   "detalles": [
@@ -137,35 +144,35 @@
       "name": "Arreglo de Chocolates",
       "price": "$35.00",
       "imageSrc": "/images/products/detalles/arregloChocolates.jpg",
-      "description": "Bombillo con nido de rosa cubierto de luces amarillas"
+      "description": "Imagina un arreglo donde cambies las flores por chocolates. ¡Aqui lo tienes!"
     },
     {
       "id": 3,
       "name": "Baúl Combinado",
       "price": "$35.00",
       "imageSrc": "/images/products/detalles/baulCombinado.jpg",
-      "description": "Bombillo con nido de rosa cubierto de luces amarillas"
+      "description": "Rosas, chocolates y bebidas todo incluido dentro de un baúl, apenas para una sorpresa"
     },
     {
       "id": 4,
       "name": "Cajita para Aniversario",
       "price": "$35.00",
       "imageSrc": "/images/products/detalles/cajitaAniversario.jpg",
-      "description": "Bombillo con nido de rosa cubierto de luces amarillas"
+      "description": "Si quieres regalar algo diferente en tu aniversario, mira esta cajita con rosas y un girasol"
     },
     {
       "id": 5,
       "name": "Collar para Perrita",
       "price": "$35.00",
       "imageSrc": "/images/products/detalles/collarPerro.jpg",
-      "description": "Bombillo con nido de rosa cubierto de luces amarillas"
+      "description": "Decoración de collar para que una perrita se vea bien coqueta en un evento especial"
     },
     {
       "id": 6,
       "name": "Regalo con Osito para Té",
       "price": "$35.00",
       "imageSrc": "/images/products/detalles/ositoTe.jpg",
-      "description": "Bombillo con nido de rosa cubierto de luces amarillas"
+      "description": "Oso de peluche grande, acompañado de un ramito de flores y unas bombas para que puedas regalar en un te de canastilla"
     }
   ],
   "accesorios": [
@@ -181,35 +188,35 @@
       "name": "Juego de Collar y Aretes",
       "price": "$35.00",
       "imageSrc": "/images/products/accesorios/collarAretes.jpg",
-      "description": "Mini baúl de madera para guardar anillos u otros accesorios"
+      "description": ""
     },
     {
       "id": 3,
-      "name": "Coronita para Fotos",
+      "name": "Coronita de Rosas",
       "price": "$35.00",
       "imageSrc": "/images/products/accesorios/coronita.jpg",
-      "description": "Mini baúl de madera para guardar anillos u otros accesorios"
+      "description": "Hermosa corona con mini rosas que puedes lucir en una sesion de fotos"
     },
     {
       "id": 4,
       "name": "Empaque para Regalo",
       "price": "$35.00",
       "imageSrc": "/images/products/accesorios/empaque.jpg",
-      "description": "Mini baúl de madera para guardar anillos u otros accesorios"
+      "description": ""
     },
     {
       "id": 5,
       "name": "Juego Triple Pulsera",
       "price": "$35.00",
       "imageSrc": "/images/products/accesorios/triplePulsera.jpg",
-      "description": "Mini baúl de madera para guardar anillos u otros accesorios"
+      "description": ""
     },
     {
       "id": 6,
       "name": "Vela Decorada",
       "price": "$35.00",
       "imageSrc": "/images/products/accesorios/velaDecorada.jpg",
-      "description": "Mini baúl de madera para guardar anillos u otros accesorios"
+      "description": "Uno de los adornos mas hermosos para el hogar con un toque de la naturaleza"
     }
   ]
 }

@@ -86,7 +86,7 @@
   .product-description {
     font-size: 18px;
     color: #555;
-    width: 50%;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -108,6 +108,7 @@
   .order-form {
     flex: 1;
     max-width: 40%;
+    margin-right: 5%;
   }
   
   /* 📱 Responsivo: En móviles, el formulario va abajo */
