@@ -13,7 +13,7 @@ const ProductDetail = () => {
   const { category, id } = useParams();
   var productsInCategory = productsData[category]
   const product = productsInCategory.find(item => item.id === parseInt(id));
-  const [entrega, setEntrega] = useState("pickup");
+  const [entrega, setEntrega] = useState("floristeria");
   const [direccion, setDireccion] = useState("");
 
   const [formData, setFormData] = useState({
@@ -22,6 +22,8 @@ const ProductDetail = () => {
     datetime: "",
     details: "",
     pickupDateTime: "",
+    entrega: entrega,
+    direccion: ""
   });
 
   if (!product) {
@@ -30,9 +32,10 @@ const ProductDetail = () => {
 
   const handleEntregaChange = (e) => {
     setEntrega(e.target.value);
-    if (e.target.value === "pickup") {
+    if (e.target.value === "floristeria") {
       setDireccion(""); // Limpia el campo si cambia a recoger
     }
+    handleChange(e)
   };
 
   const handleChange = (e) => {
@@ -61,6 +64,7 @@ const ProductDetail = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const formattedDateTime = formatDateTime(formData.pickupDateTime);
+    console.log(formData)
 
     const templateParams = {
       to_email: "penadodan02@gmail.com",
@@ -118,8 +122,8 @@ const ProductDetail = () => {
               <input
                 type="radio"
                 name="entrega"
-                value="pickup"
-                checked={entrega === "pickup"}
+                value="floristeria"
+                checked={entrega === "floristeria"}
                 onChange={handleEntregaChange}
               />
               Recoger en la floristería
@@ -145,8 +149,8 @@ const ProductDetail = () => {
                 type="textarea"
                 id="direccion"
                 name="direccion"
-                value={direccion}
-                onChange={(e) => setDireccion(e.target.value)}
+                value={formData.direccion}
+                onChange={handleChange}
                 placeholder="Ingrese la dirección completa"
                 required
               />
