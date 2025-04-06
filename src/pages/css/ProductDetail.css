@@ -75,14 +75,6 @@
     font-size: 1rem;
   }
 
-  .important-note {
-    font-size: 1rem;
-    color: #d32f2f;
-    font-weight: bold;
-    margin-top: 5px;
-    text-align: center;
-  }
-
   .product-description {
     font-size: 18px;
     color: #555;
@@ -110,6 +102,40 @@
     max-width: 40%;
     margin-right: 5%;
   }
+
+  .entrega-options {
+    display: flex;
+    justify-content: flex-start;
+    gap: 2rem;
+    margin: 0.5rem 0 1rem;
+    flex-wrap: wrap;
+  }
+
+  .entrega-option {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 500;
+    white-space: nowrap;
+  }
+  
+  .entrega-options label {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+  }
+
+
+.direccion-container {
+  margin-bottom: 1rem;
+}
+
+.direccion-container input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+  
   
   /* 📱 Responsivo: En móviles, el formulario va abajo */
   @media (max-width: 768px) {

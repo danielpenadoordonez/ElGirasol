@@ -40,7 +40,7 @@ const Gallery = () => {
            <Link key={product.id} to={`/galeria/${category}/${product.id}`} className="gallery-card">  
               <img src={product.imageSrc} alt={product.name} className="gallery-image" />
               <h3 className="gallery-card-title">{product.name}</h3>
-              <p className="gallery-card-price">{product.price}</p>
+              <p className="gallery-card-price">₡{product.price}</p>
           </Link>
           ))}
       </div>

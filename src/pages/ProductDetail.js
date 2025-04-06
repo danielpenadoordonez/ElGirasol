@@ -13,6 +13,8 @@ const ProductDetail = () => {
   const { category, id } = useParams();
   var productsInCategory = productsData[category]
   const product = productsInCategory.find(item => item.id === parseInt(id));
+  const [entrega, setEntrega] = useState("pickup");
+  const [direccion, setDireccion] = useState("");
 
   const [formData, setFormData] = useState({
     name: "",
@@ -25,6 +27,17 @@ const ProductDetail = () => {
   if (!product) {
     return <h2>Producto no encontrado</h2>;
   }
+
+  const handleEntregaChange = (e) => {
+    setEntrega(e.target.value);
+    if (e.target.value === "pickup") {
+      setDireccion(""); // Limpia el campo si cambia a recoger
+    }
+  };
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
 
   const formatDateTime = (datetime) => {
     const date = new Date(datetime);
@@ -43,10 +56,6 @@ const ProductDetail = () => {
     const formattedMinutes = minutes < 10 ? `0${minutes}` : minutes; // Siempre dos dígitos
   
     return `${day} de ${month} de ${year}, ${hours}:${formattedMinutes} ${ampm}`;
-  };
-
-  const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
   const handleSubmit = (e) => {
@@ -92,17 +101,58 @@ const ProductDetail = () => {
       <div className="product-info">
       <img src={product.imageSrc} alt={product.name} className="product-image" />
       <p className="product-description">{product.description}</p>
-      <p className="product-price">Precio Base: {product.price}</p>
+      <p className="product-price">Precio Base: ₡{product.price}</p>
       </div>
 
         <form onSubmit={handleSubmit} className="order-form">
-          <h3>Pedir este producto</h3>
+          <h3>¿Desea pedir este producto?</h3>
           <input type="text" name="name" placeholder="Tu Nombre" value={formData.name} onChange={handleChange} required />
           <input type="tel" name="phone" placeholder="Tu Teléfono" value={formData.phone} onChange={handleChange} required />
           <textarea name="details" placeholder="Algun detalle que quieras" value={formData.details} onChange={handleChange} ></textarea>
           <label>Fecha y Hora en el que lo necesitas:</label>
           <input type="datetime-local" name="pickupDateTime" value={formData.pickupDateTime} onChange={handleChange} required />
-          <p className="important-note">📍 Los pedidos deben recogerse en nuestra floristería.</p>
+          <label className="form-label">¿Cómo desea recibir su pedido?</label>
+
+          <div className="entrega-options">
+            <label className="entrega-option">
+              <input
+                type="radio"
+                name="entrega"
+                value="pickup"
+                checked={entrega === "pickup"}
+                onChange={handleEntregaChange}
+              />
+              Recoger en la floristería
+            </label>
+
+            <label className="entrega-option">
+              <input
+                type="radio"
+                name="entrega"
+                value="domicilio"
+                checked={entrega === "domicilio"}
+                onChange={handleEntregaChange}
+              />
+              Envío a domicilio
+            </label>
+          </div>
+
+          {/* Dirección solo si elige domicilio */}
+          {entrega === "domicilio" && (
+            <div className="direccion-container">
+              <label htmlFor="direccion">Dirección de entrega:</label>
+              <textarea
+                type="textarea"
+                id="direccion"
+                name="direccion"
+                value={direccion}
+                onChange={(e) => setDireccion(e.target.value)}
+                placeholder="Ingrese la dirección completa"
+                required
+              />
+            </div>
+          )}
+
           <button type="submit">Enviar Pedido</button>
         </form>
       </div>
