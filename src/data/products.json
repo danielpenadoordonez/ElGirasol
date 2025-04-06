@@ -3,42 +3,42 @@
     {
       "id": 1,
       "name": "Girasoles",
-      "price": "$50.00",
+      "price": "20,000",
       "imageSrc": "/images/products/ramos/girasoles.jpg",
       "description": "Hermoso ramo de girasoles que le van a dar vida a cualquier ambiente donde los pongas"
     },
     {
       "id": 2,
       "name": "Rosas Rojas",
-      "price": "$50.00",
+      "price": "22,000",
       "imageSrc": "/images/products/ramos/rosasrojas.jpg",
       "description": "Exquisito ramo de rosas rojas para quienes buscan regalar elegancia y amor"
     },
     {
       "id": 3,
       "name": "Gerberas",
-      "price": "$50.00",
+      "price": "12 000",
       "imageSrc": "/images/products/ramos/gerberas.jpg",
       "description": "Nuestro hermoso ramo de gerberas es ideal para regalar felicidad. Flores frescas y llenas de color"
     },
     {
       "id": 4,
       "name": "Rosas y Girasoles",
-      "price": "$50.00",
+      "price": "22 000",
       "imageSrc": "/images/products/ramos/rosasygirasoles.jpg",
       "description": "Combinación perfecta de rosas y girasoles. Un ramo vibrante, lleno de color y significado"
     },
     {
       "id": 5,
       "name": "Combinado",
-      "price": "$50.00",
+      "price": "25 000",
       "imageSrc": "/images/products/ramos/combinado.jpg",
       "description": "Es la opción perfecta para quienes buscan un estallido de color y frescura en un solo ramo."
     },
     {
       "id": 6,
       "name": "Girasol Colorido",
-      "price": "$50.00",
+      "price": "6 000",
       "imageSrc": "/images/products/ramos/girasolColorido.jpg",
       "description": "Un girasol rodeado de florcitas ordenadas por diferentes colores, dando un toque unico a tu ramo"
     }
@@ -47,42 +47,42 @@
     {
       "id": 1,
       "name": "Abanico de Rosas",
-      "price": "$55.00",
+      "price": "150 000",
       "imageSrc": "/images/products/arreglos/abanicoDeRosas.jpg",
       "description": "Rosas rojas en forma de abanico acompañadas de deliciosos chocolates y una bebida espumeante"
     },
     {
       "id": 2,
       "name": "Canastita",
-      "price": "$55.00",
+      "price": "22 000",
       "imageSrc": "/images/products/arreglos/canastita.jpg",
       "description": "Perfecta para colocar en cualquier espacio, es coqueto y facil de mover"
     },
     {
       "id": 3,
       "name": "Canasta Variada",
-      "price": "$55.00",
+      "price": "35 000",
       "imageSrc": "/images/products/arreglos/canastaVariada.jpg",
       "description": "Rosas, girasoles, gerberas y otras flores todas en un mismo canasto"
     },
     {
       "id": 4,
       "name": "Tributo",
-      "price": "$55.00",
+      "price": "25 000",
       "imageSrc": "/images/products/arreglos/tributo.jpg",
       "description": ""
     },
     {
       "id": 5,
       "name": "Vasito con Rosas",
-      "price": "$55.00",
+      "price": "18 000",
       "imageSrc": "/images/products/arreglos/vasitoConRosas.jpg",
       "description": "Imagínate un vasito con 4 rosas que se puede colocar en cualquier parte del hogar"
     },
     {
       "id": 6,
-      "name": "Arreglo Artificial",
-      "price": "$55.00",
+      "name": "Arreglo Primaveral",
+      "price": "25 000",
       "imageSrc": "/images/products/arreglos/arregloArtificial.jpg",
       "description": "Un arreglo que nunca se te va a marchitar ni va a perder su encanto"
     }
@@ -91,42 +91,42 @@
     {
       "id": 1,
       "name": "Decoración para Queque",
-      "price": "$35.00",
+      "price": "20 000",
       "imageSrc": "/images/products/bodas/arregloQueque.jpg",
       "description": "Hermoso y sencillo arreglo para el queque de boda"
     },
     {
       "id": 2,
-      "name": "Bouquet",
-      "price": "$35.00",
+      "name": "Bouquet de Hortencias",
+      "price": "25 000",
       "imageSrc": "/images/products/bodas/bouquet.jpg",
       "description": ""
     },
     {
       "id": 3,
       "name": "Botonniere",
-      "price": "$35.00",
+      "price": "3,500",
       "imageSrc": "/images/products/bodas/botonniere.jpg",
       "description": ""
     },
     {
       "id": 4,
       "name": "Corsage",
-      "price": "$35.00",
+      "price": "5,000",
       "imageSrc": "/images/products/bodas/corsage.jpg",
       "description": ""
     },
     {
       "id": 5,
       "name": "Centro de Mesa",
-      "price": "$35.00",
+      "price": "4,000",
       "imageSrc": "/images/products/bodas/centroMesa.jpg",
       "description": ""
     },
     {
       "id": 6,
       "name": "Baúl para Anillos",
-      "price": "$35.00",
+      "price": "12,000",
       "imageSrc": "/images/products/bodas/baulAnillos.jpg",
       "description": ""
     }
@@ -135,42 +135,42 @@
     {
       "id": 1,
       "name": "Bombillo de Rosa",
-      "price": "$35.00",
+      "price": "25,000",
       "imageSrc": "/images/products/detalles/bombilloRosa.jpg",
-      "description": "Bombillo con nido de rosa cubierto de luces amarillas"
+      "description": "Bombillo con nido de rosa deshidratada cubierto de luces amarillas"
     },
     {
       "id": 2,
       "name": "Arreglo de Chocolates",
-      "price": "$35.00",
+      "price": "15,000",
       "imageSrc": "/images/products/detalles/arregloChocolates.jpg",
       "description": "Imagina un arreglo donde cambies las flores por chocolates. ¡Aqui lo tienes!"
     },
     {
       "id": 3,
       "name": "Baúl Combinado",
-      "price": "$35.00",
+      "price": "25 000",
       "imageSrc": "/images/products/detalles/baulCombinado.jpg",
-      "description": "Rosas, chocolates y bebidas todo incluido dentro de un baúl, apenas para una sorpresa"
+      "description": "Rosas, chocolates y cervezas todo incluido dentro de un baúl, apenas para una sorpresa"
     },
     {
       "id": 4,
       "name": "Cajita para Aniversario",
-      "price": "$35.00",
+      "price": "30 000",
       "imageSrc": "/images/products/detalles/cajitaAniversario.jpg",
       "description": "Si quieres regalar algo diferente en tu aniversario, mira esta cajita con rosas y un girasol"
     },
     {
       "id": 5,
       "name": "Collar para Perrita",
-      "price": "$35.00",
+      "price": "5,000",
       "imageSrc": "/images/products/detalles/collarPerro.jpg",
       "description": "Decoración de collar para que una perrita se vea bien coqueta en un evento especial"
     },
     {
       "id": 6,
       "name": "Regalo con Osito para Té",
-      "price": "$35.00",
+      "price": "45,000",
       "imageSrc": "/images/products/detalles/ositoTe.jpg",
       "description": "Oso de peluche grande, acompañado de un ramito de flores y unas bombas para que puedas regalar en un te de canastilla"
     }
@@ -179,42 +179,42 @@
     {
       "id": 1,
       "name": "Mini baúl de madera",
-      "price": "$35.00",
+      "price": "12,000",
       "imageSrc": "/images/products/accesorios/miniBaul.jpg",
       "description": "Mini baúl de madera para guardar anillos u otros accesorios"
     },
     {
       "id": 2,
       "name": "Juego de Collar y Aretes",
-      "price": "$35.00",
+      "price": "12,000",
       "imageSrc": "/images/products/accesorios/collarAretes.jpg",
       "description": ""
     },
     {
       "id": 3,
       "name": "Coronita de Rosas",
-      "price": "$35.00",
+      "price": "15,000",
       "imageSrc": "/images/products/accesorios/coronita.jpg",
       "description": "Hermosa corona con mini rosas que puedes lucir en una sesion de fotos"
     },
     {
       "id": 4,
       "name": "Empaque para Regalo",
-      "price": "$35.00",
+      "price": "4,000",
       "imageSrc": "/images/products/accesorios/empaque.jpg",
       "description": ""
     },
     {
       "id": 5,
       "name": "Juego Triple Pulsera",
-      "price": "$35.00",
+      "price": "3,500",
       "imageSrc": "/images/products/accesorios/triplePulsera.jpg",
       "description": ""
     },
     {
       "id": 6,
       "name": "Vela Decorada",
-      "price": "$35.00",
+      "price": "6,000",
       "imageSrc": "/images/products/accesorios/velaDecorada.jpg",
       "description": "Uno de los adornos mas hermosos para el hogar con un toque de la naturaleza"
     }
