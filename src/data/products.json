@@ -3,14 +3,14 @@
     {
       "id": 1,
       "name": "Girasoles",
-      "price": "20,000",
+      "price": "20 000",
       "imageSrc": "/images/products/ramos/girasoles.jpg",
       "description": "Hermoso ramo de girasoles que le van a dar vida a cualquier ambiente donde los pongas"
     },
     {
       "id": 2,
       "name": "Rosas Rojas",
-      "price": "22,000",
+      "price": "22 000",
       "imageSrc": "/images/products/ramos/rosasrojas.jpg",
       "description": "Exquisito ramo de rosas rojas para quienes buscan regalar elegancia y amor"
     },
@@ -105,28 +105,28 @@
     {
       "id": 3,
       "name": "Botonniere",
-      "price": "3,500",
+      "price": "3 500",
       "imageSrc": "/images/products/bodas/botonniere.jpg",
       "description": ""
     },
     {
       "id": 4,
       "name": "Corsage",
-      "price": "5,000",
+      "price": "5 000",
       "imageSrc": "/images/products/bodas/corsage.jpg",
       "description": ""
     },
     {
       "id": 5,
       "name": "Centro de Mesa",
-      "price": "4,000",
+      "price": "4 000",
       "imageSrc": "/images/products/bodas/centroMesa.jpg",
       "description": ""
     },
     {
       "id": 6,
       "name": "Baúl para Anillos",
-      "price": "12,000",
+      "price": "12 000",
       "imageSrc": "/images/products/bodas/baulAnillos.jpg",
       "description": ""
     }
@@ -135,14 +135,14 @@
     {
       "id": 1,
       "name": "Bombillo de Rosa",
-      "price": "25,000",
+      "price": "25 000",
       "imageSrc": "/images/products/detalles/bombilloRosa.jpg",
       "description": "Bombillo con nido de rosa deshidratada cubierto de luces amarillas"
     },
     {
       "id": 2,
       "name": "Arreglo de Chocolates",
-      "price": "15,000",
+      "price": "15 000",
       "imageSrc": "/images/products/detalles/arregloChocolates.jpg",
       "description": "Imagina un arreglo donde cambies las flores por chocolates. ¡Aqui lo tienes!"
     },
@@ -163,14 +163,14 @@
     {
       "id": 5,
       "name": "Collar para Perrita",
-      "price": "5,000",
+      "price": "5 000",
       "imageSrc": "/images/products/detalles/collarPerro.jpg",
       "description": "Decoración de collar para que una perrita se vea bien coqueta en un evento especial"
     },
     {
       "id": 6,
       "name": "Regalo con Osito para Té",
-      "price": "45,000",
+      "price": "45 000",
       "imageSrc": "/images/products/detalles/ositoTe.jpg",
       "description": "Oso de peluche grande, acompañado de un ramito de flores y unas bombas para que puedas regalar en un te de canastilla"
     }
@@ -179,42 +179,42 @@
     {
       "id": 1,
       "name": "Mini baúl de madera",
-      "price": "12,000",
+      "price": "12 000",
       "imageSrc": "/images/products/accesorios/miniBaul.jpg",
       "description": "Mini baúl de madera para guardar anillos u otros accesorios"
     },
     {
       "id": 2,
       "name": "Juego de Collar y Aretes",
-      "price": "12,000",
+      "price": "12 000",
       "imageSrc": "/images/products/accesorios/collarAretes.jpg",
       "description": ""
     },
     {
       "id": 3,
       "name": "Coronita de Rosas",
-      "price": "15,000",
+      "price": "15 000",
       "imageSrc": "/images/products/accesorios/coronita.jpg",
       "description": "Hermosa corona con mini rosas que puedes lucir en una sesion de fotos"
     },
     {
       "id": 4,
       "name": "Empaque para Regalo",
-      "price": "4,000",
+      "price": "4 000",
       "imageSrc": "/images/products/accesorios/empaque.jpg",
       "description": ""
     },
     {
       "id": 5,
       "name": "Juego Triple Pulsera",
-      "price": "3,500",
+      "price": "3 500",
       "imageSrc": "/images/products/accesorios/triplePulsera.jpg",
       "description": ""
     },
     {
       "id": 6,
       "name": "Vela Decorada",
-      "price": "6,000",
+      "price": "6 000",
       "imageSrc": "/images/products/accesorios/velaDecorada.jpg",
       "description": "Uno de los adornos mas hermosos para el hogar con un toque de la naturaleza"
     }

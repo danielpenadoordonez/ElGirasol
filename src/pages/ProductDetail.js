@@ -23,7 +23,7 @@ const ProductDetail = () => {
     details: "",
     pickupDateTime: "",
     entrega: entrega,
-    direccion: ""
+    direccion: direccion
   });
 
   if (!product) {
@@ -67,13 +67,16 @@ const ProductDetail = () => {
     console.log(formData)
 
     const templateParams = {
-      to_email: "penadodan02@gmail.com",
+      to_email: "johavm85@gmail.com",
       producto: product.name,
+      categoria_producto: category.charAt(0).toUpperCase() + category.slice(1),
       precio: product.price,
       nombre_cliente: formData.name,
       telefono: formData.phone,
       detalles: formData.details,
       fecha_hora: formattedDateTime,
+      lugar_entrega: formData.entrega.charAt(0).toUpperCase() + formData.entrega.slice(1),
+      direccion: formData.direccion
     };
 
     emailjs
@@ -119,6 +122,7 @@ const ProductDetail = () => {
 
           <div className="entrega-options">
             <label className="entrega-option">
+            Recoger en la floristería
               <input
                 type="radio"
                 name="entrega"
@@ -126,10 +130,10 @@ const ProductDetail = () => {
                 checked={entrega === "floristeria"}
                 onChange={handleEntregaChange}
               />
-              Recoger en la floristería
             </label>
 
             <label className="entrega-option">
+            Envío a domicilio
               <input
                 type="radio"
                 name="entrega"
@@ -137,7 +141,6 @@ const ProductDetail = () => {
                 checked={entrega === "domicilio"}
                 onChange={handleEntregaChange}
               />
-              Envío a domicilio
             </label>
           </div>
 
